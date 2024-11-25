@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3baee40f-6242-414b-9872-b4a5f81fe27d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/container/AliooApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/container/AliooClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/container/ClassLoaderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/container/PluginClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/container/PluginSharableClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/v1/CustomClassLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/v2/CustomClassLoaderTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/v2/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/v2/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/v2/Trunk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/v3/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/v3/BizTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2p9ZvNEStpynH64KBqHupl51wSN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "true",
+    "LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/mac/work/gitstudy/classloadertest/src/main/java/com/testclass",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.24712643",
+    "settings.editor.selected.configurable": "Lombok",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/testclass" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ApplicationTest3">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alioo.classloader.v3.Application" />
+      <module name="classloadertest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alioo.classloader.v3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomClassLoaderTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alioo.classloader.v1.CustomClassLoaderTest" />
+      <module name="classloadertest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alioo.classloader.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomClassLoaderTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alioo.classloader.v1.CustomClassLoaderTest" />
+      <module name="classloadertest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alioo.classloader.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alioo.classloader.v1.CustomClassLoaderTest" />
+      <module name="classloadertest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alioo.classloader.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomClassLoaderTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alioo.classloader.v2.CustomClassLoaderTest2" />
+      <module name="classloadertest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alioo.classloader.v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApplicationTest3" />
+        <item itemvalue="Application.CustomClassLoaderTest2" />
+        <item itemvalue="Application.CustomClassLoaderTest" />
+        <item itemvalue="Application.CustomClassLoaderTest (2)" />
+        <item itemvalue="Application.CustomClassLoaderTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3baee40f-6242-414b-9872-b4a5f81fe27d" name="Changes" comment="" />
+      <created>1732180483539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732180483539</updated>
+      <workItem from="1732180484654" duration="18417000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alioo/classloader/v2/CustomClassLoaderTest2.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alioo/classloader/container/PluginClassLoader.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alioo/classloader/container/PluginClassLoader.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/alioo/classloader/v3/BizTest3.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="Thread.currentThread().getName().contains(&quot;aliooMainThread&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/alioo/classloader/container/AliooClassLoader.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
