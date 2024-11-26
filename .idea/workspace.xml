@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3baee40f-6242-414b-9872-b4a5f81fe27d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/container/AliooApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/container/AliooClassLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/container/ClassLoaderUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/container/PluginClassLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/container/PluginSharableClassLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/v1/CustomClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cc/demo/v1/CustomClassLoaderTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/v2/CustomClassLoaderTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cc/demo/v2/CustomClassLoaderTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/v2/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cc/demo/v2/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/v2/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cc/demo/v2/Goods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/v2/Trunk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cc/demo/v2/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/v3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cc/demo/v3/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alioo/classloader/v3/BizTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cc/demo/v3/BizTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="3baee40f-6242-414b-9872-b4a5f81fe27d" name="Changes" comment="refactor(classloader): 移除旧类加载器相关代码并调整包结构&#10;&#10;移除了旧的类加载器相关的类和测试文件，并更新了包路径及依赖配置。同时调整了部分类名与引用路径。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,12 +137,35 @@
       <workItem from="1732180484654" duration="24562000" />
       <workItem from="1732532386302" duration="4579000" />
       <workItem from="1732587610530" duration="2625000" />
-      <workItem from="1732594009466" duration="2625000" />
+      <workItem from="1732594009466" duration="2839000" />
     </task>
+    <task id="LOCAL-00001" summary="refactor(classloader): 移除旧类加载器相关代码并调整包结构&#10;&#10;移除了旧的类加载器相关的类和测试文件，并更新了包路径及依赖配置。同时调整了部分类名与引用路径。">
+      <option name="closed" value="true" />
+      <created>1732600893419</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732600893419</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Aone Copilot 请求模型中..." />
+    <MESSAGE value="refactor(" />
+    <MESSAGE value="refactor(classl" />
+    <MESSAGE value="refactor(classloader): 移" />
+    <MESSAGE value="refactor(classloader): 移除旧类加载器相关" />
+    <MESSAGE value="refactor(classloader): 移除旧类加载器相关代码并调整包结" />
+    <MESSAGE value="refactor(classloader): 移除旧类加载器相关代码并调整包结构&#10;&#10;移除了旧的" />
+    <MESSAGE value="refactor(classloader): 移除旧类加载器相关代码并调整包结构&#10;&#10;移除了旧的类加载器相关的类和测" />
+    <MESSAGE value="refactor(classloader): 移除旧类加载器相关代码并调整包结构&#10;&#10;移除了旧的类加载器相关的类和测试文件，并更新了包路径" />
+    <MESSAGE value="refactor(classloader): 移除旧类加载器相关代码并调整包结构&#10;&#10;移除了旧的类加载器相关的类和测试文件，并更新了包路径及依赖配置。同" />
+    <MESSAGE value="refactor(classloader): 移除旧类加载器相关代码并调整包结构&#10;&#10;移除了旧的类加载器相关的类和测试文件，并更新了包路径及依赖配置。同时调整了部分类名与引用路径。" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(classloader): 移除旧类加载器相关代码并调整包结构&#10;&#10;移除了旧的类加载器相关的类和测试文件，并更新了包路径及依赖配置。同时调整了部分类名与引用路径。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
