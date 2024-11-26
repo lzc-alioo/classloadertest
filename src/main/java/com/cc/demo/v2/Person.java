@@ -1,6 +1,6 @@
-package com.alioo.classloader.v2;
+package com.cc.demo.v2;
 
-public class Trunk {
+public class Person {
     private Goods goods;
 
     public void setGoods(Goods goods) {

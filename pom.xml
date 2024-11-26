@@ -35,14 +35,19 @@
         </dependency>
 
         <dependency>
-            <groupId>org.example</groupId>
-            <artifactId>alioo-plugin-x1</artifactId>
+            <groupId>com.lzc.alioo.container</groupId>
+            <artifactId>alioo-container</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lzc.alioo.container.plugin</groupId>
+            <artifactId>alioo-container-plugin-x1</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.example</groupId>
-            <artifactId>alioo-plugin-x2</artifactId>
+            <groupId>com.lzc.alioo.container.plugin</groupId>
+            <artifactId>alioo-container-plugin-x2</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>

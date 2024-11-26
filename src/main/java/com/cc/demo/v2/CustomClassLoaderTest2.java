@@ -1,4 +1,4 @@
-package com.alioo.classloader.v2;
+package com.cc.demo.v2;
 
 
 import java.io.IOException;
@@ -58,19 +58,19 @@ public class CustomClassLoaderTest2 {
         //反射调用createGoods方法，得到对象goods1
         Object goods1 = createGoodsMethod.invoke(factoryClass.newInstance());
 
-        //用类加载2加载Trunk类
-        Class trunkClass = myClassLoader2.loadClass(Trunk.class.getName());
+        //用类加载2加载Person类
+        Class personClass = myClassLoader2.loadClass(Person.class.getName());
         //用类加载2加载Goods类
         Class goodsClass = myClassLoader2.loadClass(Goods.class.getName());
         //用类加载2加载Goods类
         Object goods2 = goodsClass.newInstance();
 
-        Method setGoodsMethod = trunkClass.getMethod("setGoods", goodsClass);
+        Method setGoodsMethod = personClass.getMethod("setGoods", goodsClass);
         //用类加载2得到的trunkClass、goods2，反射调用setGoods方法 执行结果：正常
-        setGoodsMethod.invoke(trunkClass.newInstance(), goods2);
+        setGoodsMethod.invoke(personClass.newInstance(), goods2);
 
-        //用类加载2得到的trunkClass、用类加载器1得到goods1 执行结果：报错 IllegalArgumentException: argument type mismatch
-        setGoodsMethod.invoke(trunkClass.newInstance(), goods1);
+        //用类加载2得到的personClass、用类加载器1得到goods1 执行结果：报错 IllegalArgumentException: argument type mismatch
+        setGoodsMethod.invoke(personClass.newInstance(), goods1);
 
     }
 }

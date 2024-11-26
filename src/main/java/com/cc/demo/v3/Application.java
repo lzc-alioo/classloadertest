@@ -1,6 +1,7 @@
-package com.alioo.classloader.v3;
+package com.cc.demo.v3;
 
-import com.alioo.classloader.container.AliooApplication;
+
+import com.lzc.alioo.container.AliooApplication;
 
 public class Application {
     public static void main(String[] args) {
