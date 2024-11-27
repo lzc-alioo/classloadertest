@@ -34,7 +34,7 @@ public class BizTest3 {
                     log.info("call method:HelloOneService.queryHelloModel return result: " + helloModel);
                 }, "testNewThread");
                 t1.start();
-//                t1.join();
+                t1.join();
 
             }
 
@@ -46,12 +46,12 @@ public class BizTest3 {
             }
 
 
-            {
-                //测试是否可以获取到插件中的类HelloService 及 插件中的类HelloModel（结论：可以）
-                HelloTwoService helloService21 = new HelloTwoService();
-                HelloTwoModel helloModel = helloService21.queryHelloModel("alioo21");
-                log.info("call method:HelloTwoService.queryHelloModel return result: " + helloModel);
-            }
+//            {
+//                //测试是否可以获取到插件中的类HelloService 及 插件中的类HelloModel（结论：可以）
+//                HelloTwoService helloService21 = new HelloTwoService();
+//                HelloTwoModel helloModel = helloService21.queryHelloModel("alioo21");
+//                log.info("call method:HelloTwoService.queryHelloModel return result: " + helloModel);
+//            }
 
         } catch (Exception e) {
             e.printStackTrace();
