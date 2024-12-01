@@ -3,9 +3,8 @@ package com.cc.demo.v3;
 
 import com.lzc.alioo.container.plugin.x1.HelloOneModel;
 import com.lzc.alioo.container.plugin.x1.HelloOneService;
-import com.lzc.alioo.container.plugin.x2.HelloTwoModel;
-import com.lzc.alioo.container.plugin.x2.HelloTwoService;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.StringUtils;
 
 @Slf4j
 public class BizTest3 {
@@ -22,6 +21,11 @@ public class BizTest3 {
                 HelloOneService helloService12 = new HelloOneService();
                 HelloOneModel helloModel = helloService12.queryHelloModel("alioo");
                 log.info("call method:HelloOneService.queryHelloModel return result: " + helloModel);
+
+                String name = StringUtils.rightPad(helloModel.getName(), 20);
+                name = StringUtils.leftPad(name, 30);
+                name = "|||" + name + "|||";
+                log.info("call method:HelloOneService.queryHelloModel return name: " + name);
             }
 
             {

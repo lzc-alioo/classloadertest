@@ -16,6 +16,30 @@
     </properties>
 
     <dependencies>
+
+
+        <!--业务容器 及 插件-->
+        <dependency>
+            <groupId>com.lzc.alioo.container</groupId>
+            <artifactId>alioo-container</artifactId>
+            <version>1.1-SNAPSHOT</version>
+        </dependency>
+        <!--注意：插件在业务代码打包时是不应该带上的(通过scope：provided来标识)，且插件依赖的jar包也不会带上_-->
+        <dependency>
+            <groupId>com.lzc.alioo.container.plugin</groupId>
+            <artifactId>alioo-container-plugin-x1</artifactId>
+            <version>1.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.lzc.alioo.container.plugin</groupId>
+            <artifactId>alioo-container-plugin-x2</artifactId>
+            <version>1.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <!--业务容器 及 插件 结束-->
+
+        <!-- 日志相关 -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
@@ -26,31 +50,23 @@
             <artifactId>logback-classic</artifactId>
             <version>1.5.6</version>
         </dependency>
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.30</version>
             <scope>provided</scope>
         </dependency>
+        <!--日志相关 结束-->
 
+        <!--模拟业务代码的第三方依赖-->
         <dependency>
-            <groupId>com.lzc.alioo.container</groupId>
-            <artifactId>alioo-container</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.9</version>
         </dependency>
-        <dependency>
-            <groupId>com.lzc.alioo.container.plugin</groupId>
-            <artifactId>alioo-container-plugin-x1</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.lzc.alioo.container.plugin</groupId>
-            <artifactId>alioo-container-plugin-x2</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
+        <!--模拟业务代码的第三方依赖 结束-->
+
+
     </dependencies>
 
     <build>
