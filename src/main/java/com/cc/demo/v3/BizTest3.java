@@ -1,6 +1,7 @@
 package com.cc.demo.v3;
 
 
+import com.alibaba.fastjson.JSONObject;
 import com.lzc.alioo.container.plugin.x1.HelloOneModel;
 import com.lzc.alioo.container.plugin.x1.HelloOneService;
 import lombok.extern.slf4j.Slf4j;
@@ -56,6 +57,16 @@ public class BizTest3 {
 //                HelloTwoModel helloModel = helloService21.queryHelloModel("alioo21");
 //                log.info("call method:HelloTwoService.queryHelloModel return result: " + helloModel);
 //            }
+
+            {
+                JSONObject aaa = new JSONObject();
+                //测试是否可以获取到插件中的类HelloOneService 及 插件中的类HelloModel（结论：可以）
+                HelloOneService helloService15 = new HelloOneService();
+                JSONObject helloModel = helloService15.queryJSONObject("alioo");
+                log.info("call method:HelloOneService.queryHelloModel return result: " + helloModel);
+
+            }
+
 
         } catch (Exception e) {
             e.printStackTrace();

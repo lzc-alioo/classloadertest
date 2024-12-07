@@ -4,7 +4,7 @@
 
     <groupId>com.cc.demo</groupId>
     <artifactId>classloadertest</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>classloadertest</name>
@@ -13,28 +13,27 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>11</java.version>
+        <alioo.container.version>1.2-SNAPSHOT</alioo.container.version>
     </properties>
 
     <dependencies>
-
-
         <!--业务容器 及 插件-->
         <dependency>
             <groupId>com.lzc.alioo.container</groupId>
             <artifactId>alioo-container</artifactId>
-            <version>1.1-SNAPSHOT</version>
+            <version>${alioo.container.version}</version>
         </dependency>
         <!--注意：插件在业务代码打包时是不应该带上的(通过scope：provided来标识)，且插件依赖的jar包也不会带上_-->
         <dependency>
             <groupId>com.lzc.alioo.container.plugin</groupId>
             <artifactId>alioo-container-plugin-x1</artifactId>
-            <version>1.1-SNAPSHOT</version>
+            <version>${alioo.container.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.lzc.alioo.container.plugin</groupId>
             <artifactId>alioo-container-plugin-x2</artifactId>
-            <version>1.1-SNAPSHOT</version>
+            <version>${alioo.container.version}</version>
             <scope>provided</scope>
         </dependency>
         <!--业务容器 及 插件 结束-->
@@ -58,13 +57,21 @@
         </dependency>
         <!--日志相关 结束-->
 
-        <!--模拟业务代码的第三方依赖-->
+        <!--模拟业务代码的第三方依赖 需要与插件各自引用该jar包-->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.9</version>
         </dependency>
         <!--模拟业务代码的第三方依赖 结束-->
+
+        <!--模拟业务代码的第三方依赖 需要与插件共用1个jar包，以业务代码中的引入为准-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.80</version>
+        </dependency>
+        <!--模拟业务代码的第三方依赖-->
 
 
     </dependencies>
@@ -75,8 +82,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
                 </configuration>
             </plugin>
 
